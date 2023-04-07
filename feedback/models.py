@@ -7,7 +7,7 @@ class Feedback(models.Model):
     email = models.EmailField()
     phone = models.CharField(max_length=50)
     reason = models.CharField(max_length=50)
-    vk = models.URLField()
+    instagram = models.URLField()
     message = models.TextField()
 
     def __str__(self):

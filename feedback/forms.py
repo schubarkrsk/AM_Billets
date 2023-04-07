@@ -17,5 +17,5 @@ class FeedbackForm(forms.Form):
     email = forms.EmailField(label='Email')
     phone = forms.CharField(label="Телефон", max_length=50)
     reason = forms.ChoiceField(label='Тип биллета', choices=REASON_CHOICES)
-    vk = forms.URLField(label="Ссылка на ВК")
+    instagram = forms.URLField(label="Ссылка на instagram")
     message = forms.CharField(label='Message', widget=forms.Textarea)

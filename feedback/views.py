@@ -12,7 +12,7 @@ def feedback(request):
                 email=form.cleaned_data['email'],
                 phone=form.cleaned_data['phone'],
                 reason=form.cleaned_data['reason'],
-                vk=form.cleaned_data['vk'],
+                instagram=form.cleaned_data['instagram'],
                 message=form.cleaned_data['message']
             )
             # Сохранение объекта в базу данных
