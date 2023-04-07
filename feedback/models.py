@@ -11,7 +11,7 @@ class Feedback(models.Model):
     message = models.TextField()
 
     def __str__(self):
-        return f"{self.name} / {self.reason} / {self.phone} / {self.vk}"
+        return f"{self.name} / {self.reason} / {self.phone} / {self.instagram}"
 
 
 class TypeOfBillets(models.Model):
