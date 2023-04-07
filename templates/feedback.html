@@ -1,7 +1,7 @@
-{#{% extends 'base.html' %}#}
+{% extends 'base.html' %}
 
 {% block content %}
-  <h1>Contact Us</h1>
+  <h1 name="buy">Купить пригласительный</h1>
   <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
