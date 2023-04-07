@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>{% block header %}{% endblock %}</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#top">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#buy">Купить пригласительный</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Александр Мартынов. All rights reserved.</p>
+        <p align="right"><a href="http://vk.com/schubar_dev>">Разработано Станиславом Чубарем</a></p>
+    </footer>
+</body>
+</html>
